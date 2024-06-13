@@ -7,6 +7,18 @@
     android:layout_height="match_parent"
     tools:context=".pacientes">
 
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="417dp"
+        android:layout_height="897dp"
+        android:layout_marginBottom="104dp"
+        android:src="@drawable/txt_border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -14,7 +26,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginBottom="35dp"
         android:text="Agregar pacientes"
-        android:textColor="#000000"
+        android:textColor="#5275b6"
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -64,7 +76,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Nombre del paciente"
-        android:textColor="#000000"
+        android:textColor="#7a93b4"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/txtNombrePaciente"
         app:layout_constraintStart_toStartOf="@+id/txtNombrePaciente"
@@ -76,7 +88,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
         android:text="Dirección del paciente"
-        android:textColor="#000000"
+        android:textColor="#7a93b4"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/txtDireccionPaciente"
         app:layout_constraintStart_toStartOf="parent"
@@ -87,7 +99,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Doctor que lo atenderá"
-        android:textColor="#000000"
+        android:textColor="#7a93b4"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/spDoctores"
         app:layout_constraintStart_toStartOf="@+id/spDoctores"
@@ -98,6 +110,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="52dp"
+        android:backgroundTint="#5275b6"
         android:text="Guardar paciente"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -123,11 +136,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:text="Fecha de Nacimiento"
-        android:textColor="#000000"
+        android:textColor="#7a93b4"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/txtFechaNacimiento"
         app:layout_constraintStart_toStartOf="@+id/txtFechaNacimiento"
         app:layout_constraintTop_toBottomOf="@+id/spDoctores" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
